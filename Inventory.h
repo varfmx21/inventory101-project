@@ -7,6 +7,7 @@ using namespace std;
 
 class Inventory {
     private:
+        // Hash Map
         unordered_map<string, int> products;
     public:
         void addProduct(string& name, int quatity);
